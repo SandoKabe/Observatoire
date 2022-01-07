@@ -1,0 +1,2030 @@
+{
+    "name": "typologie",
+    "children": [
+         {
+            "name": "décrypt.",
+            "size": 77,
+            "children": [
+                 {
+                    "name": "vid.",
+                    "size": 7,
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tech.",
+                            "size": 4,
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 4,
+                                    "logo": "./logos/mobileMonkeys.png",
+                                    "title": "MobileMonkey"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "forum",
+                    "size": 7,
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 2
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 2
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 8
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tech.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "www",
+                    "size": 40,
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "jeun.",
+                                    "size": 6
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 7
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 6
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 3
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 5
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 5
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 7
+                                }
+                            ]
+                        },
+                        {
+                            "name": "tech.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 6
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "jeu",
+                    "size": 16,
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "size": 10,
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 3
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 7
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "size": 2,
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "size": 0,
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "size": 2,
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 1
+                                },
+                                {
+                                    "name": "étu.",
+                                    "size": 1
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "size":2,
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 2
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "livre",
+
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 3
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 3
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {   "name": "autre",
+            "size": 3,
+            "children": [
+                {
+                   "name": "vid.",
+                   "size": 3,
+                   "children": [
+                       {
+                           "name": "pol.",
+                           "children": [
+                               {
+                                   "name": "étu.",
+                                   "size": 0
+                               },
+                               {
+                                   "name": "adu.",
+                                   "size": 3
+                               }
+                           ]
+                       }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sati.",
+            "size": 9,
+            "children": [
+                 {
+                    "name": "vid.",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "size": 0,
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "size": 0,
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "forum",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "www",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "jeu",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 2
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "children": [
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 1
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "tweet",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "dénon.",
+            "size": "3",
+            "children": [
+                 {
+                    "name": "vid.",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "forum",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "www",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "jeu",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "tweet",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "humor.",
+            "size": "9",
+            "children": [
+                 {
+                    "name": "vid.",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "forum",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "www",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 3
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "jeu",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "actu.",
+                            "children": [
+                                {
+                                    "name": "jeun.",
+                                    "size": 3
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 2
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 5
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 5
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 5
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 2
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "eco.",
+                            "children": [
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "tweet",
+                    "children": [
+                        {
+                            "name": "pol.",
+                            "children": [
+                                {
+                                    "name": "étu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "éco.",
+                            "children": [
+                                {
+                                    "name": "ado",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "people",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "med.",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "RS",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "jeun.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "enf.",
+                                    "size": 0
+                                },
+                                {
+                                    "name": "soi-même",
+                                    "size": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "lobby",
+                            "children": [
+                                {
+                                    "name": "adu.",
+                                    "size": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

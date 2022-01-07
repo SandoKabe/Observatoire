@@ -1,0 +1,120 @@
+.svg {
+    display: block;
+    background: #001111; /*green #222b1d  red #190103*/
+    color: #bebebe;
+    font-family: "Lucida Console", Monaco, monospace;
+    height: 90vh;
+    width: 120vh;
+    margin-top: 2vw;
+}
+    
+.country {
+    fill: #9cb1b4; /*  ltgrey : 999  */
+    stroke: black;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vector-effect: non-scaling-stroke;
+}
+
+.axis line {
+    stroke: #c1d3b8;
+}
+
+.axis path {
+    stroke: #c1d3b8;
+}
+
+.axis text {
+    fill: #c1d3b8;
+    font-size : 13px;
+}
+
+.legend {
+    /*background-image: linear-gradient(to right, #d4eac7 ,  #223815);*/
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+}
+
+.arrow-right {
+    right: 0;
+    border: none;
+    width: 3vw;
+    height: 3vw;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    float: right;
+    /* position: absolute; */
+    z-index: 9;
+    margin-top: 20vw;
+}
+
+.arrow-top {
+    border: none;
+    width: 3vw;
+    height: 3vw;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    /* position: absolute; */
+    z-index: 9;
+    margin-left: 45vw;
+    margin-top: -5vw;
+}
+
+ 
+ .details {
+    /* position: absolute; */
+    padding: 1vw;
+    border-color:black;
+    font-size: 0.7rem;
+    background-color: #2A2B37;
+    color: white;
+    height: 90vh;
+    width: 55vh;
+    float: left;
+    margin-top: 2vw;
+    margin-left: 2vw;
+ }
+ .details img {
+     width: 100%;
+ }
+ .details-title {
+     font-size: 1rem;
+     text-decoration: underline;
+ }
+ 
+ .details-logo {
+     float: right;
+     width: 6vw;
+ }
+ 
+ .details-logo img{
+     width: 6vw;
+ }
+  
+ #section-map {
+   /* z-index : 20; 
+    height : 700px; */
+  }
+
+  #next {
+    position: relative;
+    width: 5px;
+    left: 50vh;
+    top: -10vh;
+  }
+
+  #btnNext {
+    background-color: #008080; /* 008080 */
+    color: #adc5c5;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #adc5c5; /* 333333 */
+    /*position: relative;
+    top: 80vh;
+    left: -15vh;*/
+  }

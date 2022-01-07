@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Word Cloud Generator</title>
+<style>
+body {
+  position: relative;
+  font-family: "Helvetica Neue", sans-serif;
+  width: 960px;
+  margin: auto;
+  margin-bottom: 1em;
+  margin-top: 20px;
+}
+#presets a { border-left: solid #666 1px; padding: 0 10px; }
+#presets a.first { border-left: none; }
+#keyword { width: 300px; }
+#fetcher { width: 500px; }
+#keyword, #go { font-size: 1.5em; }
+#text { width: 100%; height: 100px; }
+p.copy { font-size: small; }
+#form { font-size: small; position: relative; }
+hr { border: none; border-bottom: solid #ccc 1px; }
+a.active { text-decoration: none; color: #000; font-weight: bold; cursor: text; }
+#angles line, #angles path, #angles circle { stroke: #666; }
+#angles text { fill: #333; }
+#angles path.drag { fill: #666; cursor: move; }
+#angles { text-align: center; margin: 0 auto; width: 350px; }
+#angles input, #max { width: 42px; }
+</style>
+
+<div id="vis"></div>
+
+<form id="form">
+
+<p style="position: absolute; right: 0; top: 0" id="status"></p>
+
+<div style="text-align: center">
+  <div id="presets"></div>
+  <div id="custom-area">
+    <p><label for="text">Paste your text below!</label>
+    <button id="go" type="submit">Go!</button>
+  </div>
+</div>
+
+<hr>
+
+<div style="float: right; text-align: right">
+  <p><label for="max">Number of words:</label> <input type="number" value="250" min="1" id="max">
+  <p><label for="per-line"><input type="checkbox" id="per-line"> One word per line</label>
+  <!--<p><label for="colours">Colours:</label> <a href="#" id="random-palette">get random palette</a>-->
+  <p><label>Download:</label>
+    <button id="download-svg">SVG</button><!-- |
+    <a id="download-png" href="#">PNG</a>-->
+</div>
+
+<div style="float: left">
+  <p><label>Spiral:</label>
+    <label for="archimedean"><input type="radio" name="spiral" id="archimedean" value="archimedean" checked="checked"> Archimedean</label>
+    <label for="rectangular"><input type="radio" name="spiral" id="rectangular" value="rectangular"> Rectangular</label>
+  <p><label for="scale">Scale:</label>
+    <label for="scale-log"><input type="radio" name="scale" id="scale-log" value="log" checked="checked"> log n</label>
+    <label for="scale-sqrt"><input type="radio" name="scale" id="scale-sqrt" value="sqrt"> √n</label>
+    <label for="scale-linear"><input type="radio" name="scale" id="scale-linear" value="linear"> n</label>
+  <p><label for="font">Font:</label> <input type="text" id="font" value="Impact">
+</div>
+
+<div id="angles">
+  <p><input type="number" id="angle-count" value="5" min="1"> <label for="angle-count">orientations</label>
+    <label for="angle-from">from</label> <input type="number" id="angle-from" value="-60" min="-90" max="90"> °
+    <label for="angle-to">to</label> <input type="number" id="angle-to" value="60" min="-90" max="90"> °
+</div>
+
+<hr style="clear: both">
+
+<p style="float: right"><a href="about/">How the Word Cloud Generator Works</a>.
+<p style="float: left">Copyright &copy; <a href="http://www.jasondavies.com/">Jason Davies</a> | <a href="../privacy/">Privacy Policy</a>. The generated word clouds may be used for any purpose.
+
+</form>
+
+<script src="../d3.min.js"></script>
+<script src="cloud.min.js"></script>
+
+<script>
+
+    var fill = d3.scale.category20();
+      var data = [{word:"Hello",weight:20},{word:"World",weight:10},{word:"Normally",weight:25},{word:"You",weight:15},{word:"Want",weight:30},{word:"More",weight:12},{word:"Words",weight:8},{word:"But",weight:18},{word:"Who",weight:22},{word:"Cares",weight:27}];
+    
+    d3.layout.cloud().size([500, 500])
+          .words(data.map(function(d) {
+            return {text: d.word, size: d.weight};
+          }))
+          .padding(5)
+          .rotate(function() { return ~~(Math.random() * 2) * 90; })
+          .font("Impact")
+          .fontSize(function(d) { return d.size; })
+          .on("end", draw)
+          .start();
+    
+      function draw(words) {
+          d3.select("body").append("svg")
+            .attr("width", 300)
+            .attr("height", 300)
+          .append("g")
+            .attr("transform", "translate(150,150)")
+          .selectAll("text")
+            .data(words)
+          .enter().append("text")
+            .style("font-size", function(d) { return d.size + "px"; })
+            .style("font-family", "Impact")
+            .style("fill", function(d, i) { return fill(i); })
+            .attr("text-anchor", "middle")
+            .attr("transform", function(d) {
+    
+              return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+            })
+            .text(function(d) { return d.text; });
+      }
+      function drawUpdate(words){
+       d3.layout.cloud().size([500, 500])
+          .words(words)
+          .padding(5)
+          .rotate(function() { return ~~(Math.random() * 2) * 90; })
+          .font("Impact")
+          .fontSize(function(d) { return d.size; })
+          .start();
+    
+    
+          d3.select("svg")
+          .selectAll("g")
+            .attr("transform", "translate(150,150)")
+          .selectAll("text")
+            .data(words).enter().append("text")
+            .style("font-size", function(d) { return d.size + "px"; })
+            .style("font-family", "Impact")
+            .style("fill", function(d, i) { return fill(i); })
+    
+            .attr("transform", function(d) {
+    
+              return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+            })
+            .text(function(d) { return d.text; });
+    
+    
+    
+      }
+    
+      setInterval(function () { 
+            var d_new = data;
+            d_new.push({word:randomWord(),weight:randomWeight()});
+    
+             drawUpdate(d_new.map(function(d) {
+            return {text: d.word, size: d.weight};
+          }));
+          }, 1500);
+    
+      function randomWord() {
+              var text = "";
+              var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    
+              for( var i=0; i < 5; i++ )
+                  text += possible.charAt(Math.floor(Math.random() * possible.length));
+    
+              return text;
+          }
+          function randomWeight(){
+            var r = Math.round(Math.random() * 100);
+            return r;
+          }
+    </script>
+

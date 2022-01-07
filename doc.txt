@@ -1,0 +1,48 @@
+
+// install create-react-app
+npx create-react-app jeu
+
+//Après avoir créé le repo. vide dans git username/repo
+git init
+
+git remote add origin https://github.com/xofni/jeu.git
+
+// modifier le package json
+Ajouter:
+"private": true,
+  "homepage": "https://xofni.github.io/jeu",
+  "dependencies": {
+  
+et
+
+"eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+// optionnel
+git add .
+
+git commit -m "Add React Project"
+
+// Quelle différence
+git push --set-upstream origin master
+git push -u origin master
+
+// fin optionnel
+
+// install gh-pages
+npm install gh-pages --save-dev
+
+// build and deploy code on gh-pages branch (*2)
+npm run deploy
+
+// ??? Appelé indirectement par le run deploy
+gh-pages -d build
+=> Error :
+bash: gh-pages: command not found
+
+// OpenStreetMap
+
+
+
+

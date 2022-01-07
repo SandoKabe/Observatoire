@@ -1,0 +1,16 @@
+jeu	pro	utilisateur	ludique	2
+jeu	pro	utilisateur	pedagogique	1
+jeu	pro	colporteur	ludique	1
+jeu	pro	colporteur	pedagogique	
+jeu	decrypt	ludique	1	
+jeu	decrypt	pedagogique	2	
+init	surveillance	politique	factuel	4
+init	surveillance	politique	satirique	2
+init	surveillance	RS	factuel	
+init	surveillance	RS	satirique	
+init	surveillance	media	factuel	
+init	surveillance	media	satirique	
+init	pedagogique	decryt	libre	2
+init	pedagogique	decryt	prive	2
+init	pedagogique	manuel		2
+init	pedagogique	scolaire		1

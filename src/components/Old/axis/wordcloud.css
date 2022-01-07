@@ -1,0 +1,28 @@
+#body{
+    background-color: black;
+}
+
+.w3-animate-zoom {
+    animation: animatezoom 2s;
+    margin-top: 2rem;
+}
+
+.legende {
+    font-size: 0.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+#section1 {
+  height: 600px;
+  margin-bottom: 50vw;
+}
+
+.arrow {
+    margin-top: -3rem;
+    width: 3vw;
+    height: 3vw;
+    margin-left: 40rem; 
+}

@@ -1,0 +1,39 @@
+.mapping{
+    margin-bottom: 10vw;
+    margin-left: 120vw;
+    padding-left:20vw;
+    position: absolute;
+}
+.mapping-title{
+    font-weight: bold;
+    margin-top: 5vw;
+    border-color: lightgray;
+    border-bottom: 0.5rem;
+}
+.mapping-separation {
+
+}
+.mapping-legende {
+    width: 255px;
+    float:left ! important
+}
+.mapping-card{
+    width: 100vw;
+}
+
+.mapping-card img {
+    float:left;
+}
+.mapping-arrow-left{
+    border: none;
+    width: 3vw;
+    height: 3vw;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    z-index: 9;
+    margin-top: 25vw;
+    margin-left: -10vw;
+}
+
+

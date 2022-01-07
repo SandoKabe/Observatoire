@@ -1,0 +1,87 @@
+body {
+  background-color:#f5fae3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100vh;
+  margin-top: 10px;
+}
+
+#introduction {
+  height: 100vh;
+  border: 1px solid #333333;
+}
+#description {
+  height: 100vh;
+  border: 1px solid #333333;
+}
+
+#Map {
+  display: inline-flex;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid #333333;
+  background-color:black;
+}
+#container {
+  height: 100vh; /* height: 600px; */
+  border: 1px solid #333333;
+  background-color: black;
+  float: left;
+  /* position: relative; */
+  margin-left: 350px;
+}
+
+#analyse {
+  height: 100vh;
+  border: 1px solid #333333;
+}
+#Type {
+  height: 100vh;
+}
+
+#benchmark {
+  height: 100vh;
+  border: 1px solid #333333;
+}
+#contentBenchmark {
+  height: 50vh;
+}
+#conclusion{
+  height: 100vh;
+  border: 1px solid #333333;
+}
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
